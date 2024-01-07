@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    border: 2px dotted darkorchid;
+}
+
+section {
+    float: left;
+    height: 275px;
+    width: 16.66%;
+    border: 2px dotted darkturquoise;
+}
+
+.fiftyWidth {
+    width: 50%;
+}
