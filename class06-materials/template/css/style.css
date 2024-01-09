@@ -47,3 +47,9 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 800px) {
+     section {
+          background: rgb(250, 123, 166);
+     }
+
+}
