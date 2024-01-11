@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 150px;
+    width: 100%;
+    border: 3px solid salmon;
+    clear: both;
+}
+
+section {
+    height: 300px;
+    width: 100%;
+    border: 3px solid goldenrod;
+    float: left;
+}
+
+.twentyFiveWidth {
+    width: 25%;
+}
+
+.seventyFiveWidth {
+    width: 75%;
+}
