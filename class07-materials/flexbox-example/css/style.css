@@ -49,3 +49,20 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (max-width:600px) {
+     section {
+          background: lawngreen;
+     }
+}
+
+@media (min-width: 601px) and (max-width:900px) {
+     section {
+          background: indigo;
+          width: 33.33%;
+     }
+
+     .bigMiddle {
+          display: none;
+     }
+}
