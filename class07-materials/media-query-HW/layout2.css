@@ -24,3 +24,14 @@ section {
 .seventyFiveWidth {
     width: 75%;
 }
+
+/*---------MEDIA QUERIES--------*/
+
+/*------Monitors------*/
+@media screen and (min-width: 1201px) and (max-width: 1600px) {}
+
+/* ----Tablets------ */
+@media (min-width: 800px) and (max-width:1200px) {}
+
+/* -----Phones----- */
+@media (min-width: 380px) and (max-width: 799px) {}
