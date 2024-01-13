@@ -30,4 +30,12 @@ section {
 @media (min-width: 800px) and (max-width:1200px) {}
 
 /* -----Phones----- */
-@media (min-width: 380px) and (max-width: 799px) {}
+@media (min-width: 380px) and (max-width: 799px) {
+
+    section,
+    .fiftyWidth {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
