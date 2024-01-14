@@ -24,10 +24,31 @@ section {
 /*---------MEDIA QUERIES--------*/
 
 /*------Monitors------*/
-@media screen and (min-width: 1201px) and (max-width: 1600px) {}
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    section {
+        border: 9px solid saddlebrown;
+        background: skyblue;
+    }
+
+
+    header,
+    footer {
+        background: gray;
+    }
+}
 
 /* ----Tablets------ */
-@media (min-width: 800px) and (max-width:1200px) {}
+@media (min-width: 800px) and (max-width:1200px) {
+    section {
+        background: black;
+        border: 6px dashed darkcyan;
+    }
+
+    header,
+    footer {
+        background: gainsboro;
+    }
+}
 
 /* -----Phones----- */
 @media (min-width: 380px) and (max-width: 799px) {
