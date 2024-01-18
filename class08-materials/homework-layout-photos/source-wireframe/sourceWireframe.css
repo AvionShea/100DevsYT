@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 55px;
+}
+
+nav * {
+    display: block;
+    float: left;
+    width: 10%;
+}
+
+nav ul {
+    width: 50%;
+}
+
+main {
+    clear: both;
+    height: 500px;
+    width: 100%;
+}
+
+main section {
+    float: left;
+    height: 250px;
+    width: 50%;
+}
+
+main+section section {
+    float: left;
+    width: 25%;
+    padding-top: 100px;
+    height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header,
+    main>section,
+    main+section section {
+        display: block;
+        float: none;
+        width: 100%;
+        background: purple;
+    }
+}
