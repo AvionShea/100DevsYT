@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+}
+
+header,
+footer {
+    clear: both;
+}
+
+nav * {
+    float: left;
+    width: 30%;
+}
+
+nav button {
+    width: 5%;
+}
+
+section {
+    height: 250px;
+}
+
+.centerText {
+    text-align: center;
+    border: 2px solid thistle;
+}
+
+.splitSection {
+    height: 300px;
+    border: 2px solid thistle;
+}
+
+.gymVisit {
+    float: left;
+    height: 150px;
+    width: 50%;
+
+}
+
+footer section {
+    float: left;
+    width: 50%;
+    height: 75px;
+}
