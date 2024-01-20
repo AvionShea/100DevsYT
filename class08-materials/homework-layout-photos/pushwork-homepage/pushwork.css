@@ -1,3 +1,25 @@
 * {
     box-sizing: border-box;
 }
+
+header,
+footer {
+    clear: both;
+    height: 55px;
+}
+
+nav * {
+    display: block;
+    float: left;
+    width: 10%;
+}
+
+nav ul {
+    width: 50%;
+}
+
+nav button {
+    width: 5%;
+    text-wrap: nowrap;
+    margin: 0 auto;
+}
