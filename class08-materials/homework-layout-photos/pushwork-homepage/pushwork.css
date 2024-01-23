@@ -35,11 +35,12 @@ section {
 }
 
 .logos {
-    height: 200px;
+    clear: both;
+    height: 150px;
     float: right;
 }
 
 .split.four {
-    width: 25%;
-    height: 50px;
+    width: 50%;
+    height: 150px;
 }
