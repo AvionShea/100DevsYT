@@ -44,3 +44,7 @@ section {
     width: 50%;
     height: 150px;
 }
+
+.centerInfo {
+    text-align: center;
+}
