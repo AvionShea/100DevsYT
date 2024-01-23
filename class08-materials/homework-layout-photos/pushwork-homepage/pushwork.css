@@ -23,3 +23,23 @@ nav button {
     text-wrap: nowrap;
     margin: 0 auto;
 }
+
+section {
+    float: left;
+    height: 300px;
+}
+
+.split {
+    height: 150px;
+    width: 50%;
+}
+
+.logos {
+    height: 200px;
+    float: right;
+}
+
+.split.four {
+    width: 25%;
+    height: 50px;
+}
