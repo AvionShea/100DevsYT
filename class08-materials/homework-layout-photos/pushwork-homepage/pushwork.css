@@ -26,7 +26,12 @@ nav button {
 
 section {
     float: left;
-    height: 300px;
+    height: 600px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
 }
 
 .split {
@@ -40,6 +45,12 @@ section {
     float: right;
 }
 
+.smallImg {
+    width: 200px;
+    height: 200px;
+    padding: 30px 0;
+}
+
 .split.four {
     width: 50%;
     height: 150px;
@@ -51,4 +62,10 @@ section {
 
 .splitMulti {
     width: 33.33%;
+}
+
+.testimonialPic {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
 }
