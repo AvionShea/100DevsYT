@@ -48,3 +48,7 @@ section {
 .centerInfo {
     text-align: center;
 }
+
+.splitMulti {
+    width: 33.33%;
+}
