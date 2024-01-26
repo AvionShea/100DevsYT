@@ -26,7 +26,7 @@ nav button {
 
 section {
     float: left;
-    height: 650px;
+    height: 600px;
 }
 
 img {
@@ -66,6 +66,12 @@ img {
     width: 33.33%;
 }
 
+.howItWorksBtn {
+    text-align: center;
+    margin: 70px 500px;
+    padding: 300px;
+}
+
 .testimonialPic {
     width: 60px;
     height: 60px;
@@ -74,4 +80,12 @@ img {
 
 footer section {
     height: 260px;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        display: block;
+        width: 100%;
+        float: none;
+    }
 }
