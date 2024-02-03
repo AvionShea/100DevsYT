@@ -2,6 +2,7 @@ document.getElementById('purple').onclick = partyPurple
 document.getElementById('green').onclick = partyGreen
 document.getElementById('blue').onclick = partyBlue
 document.getElementById('red').onclick = partyRed
+document.getElementById('reset').onclick = resetColor
 
 
 function partyPurple() {
@@ -22,4 +23,9 @@ function partyBlue() {
 function partyRed() {
   document.querySelector('body').style.backgroundColor = 'rgba(255, 0, 0, 1)';
   document.querySelector('body').style.color = 'white';
+}
+
+function resetColor() {
+  document.querySelector('body').style.backgroundColor = 'rgba(255, 255, 255, 1)';
+  document.querySelector('body').style.color = 'black';
 }
