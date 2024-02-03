@@ -2,11 +2,11 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
 
-  const day = document.querySelector('#day').value
+  const day = document.querySelector('#day').value.toLowerCase()
 
-  if (day == 'Tuesday' || day == 'Thursday') {
+  if (day == 'tuesday' || day == 'thursday') {
     document.querySelector('#placeToSee').innerHTML = "Class Day!"
-  } else if (day == 'Saturday' || day == 'Sunday') {
+  } else if (day == 'saturday' || day == 'sunday') {
     document.querySelector('#placeToSee').innerHTML = "Weekend!"
   } else {
     document.querySelector('#placeToSee').innerHTML = "Boring Day"
