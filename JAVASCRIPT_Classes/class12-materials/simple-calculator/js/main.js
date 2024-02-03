@@ -1,32 +1,34 @@
 let total = 0
 
-document.querySelector('#pumpkin').addEventListener('click', makeZero)
-document.querySelector('#dominosPizza').addEventListener('click', jumanji)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
-document.querySelector('#subTen').addEventListener('click', sub10)
+document.querySelector('#pumpkin').addEventListener('click', zeroOut);
+document.querySelector('#dominosPizza').addEventListener('click', addThree);
+document.querySelector('#zebra').addEventListener('click', addNine);
+document.querySelector('#cantThinkOfAnything').addEventListener('click', subTwo);
+document.querySelector('#subTen').addEventListener('click', subTen);
+document.querySelector('#multiplyTwo').addEventListener('click', multiplyTwo);
 
-function makeZero() {
-  total = 0
-  document.querySelector('#placeToPutResult').innerText = total
+
+function zeroOut() {
+  let total = 0;
+  document.querySelector('#placeToPutResult').innerHTML = total;
 }
-
-function jumanji() {
-  total = total + 3
-  document.querySelector('#placeToPutResult').innerText = total
+function addThree() {
+  total = total + 3;
+  document.querySelector('#placeToPutResult').innerHTML = total;
 }
-
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
+function addNine() {
+  total = total + 9;
+  document.querySelector('#placeToPutResult').innerHTML = total;
 }
-
-function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
+function subTwo() {
+  total = total - 2;
+  document.querySelector('#placeToPutResult').innerHTML = total;
 }
-
-function sub10() {
-  total = total - 10
-  document.querySelector('#placeToPutResult').innerHTML = total
+function subTen() {
+  total = total - 10;
+  document.querySelector('#placeToPutResult').innerHTML = total;
+}
+function multiplyTwo() {
+  total = total * 2;
+  document.querySelector('#placeToPutResult').innerHTML = total;
 }
