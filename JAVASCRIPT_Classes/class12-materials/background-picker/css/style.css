@@ -16,6 +16,10 @@ h2,
   text-align: center;
 }
 
+#reset {
+  color: black;
+}
+
 img {
   display: block;
   height: 400px;
