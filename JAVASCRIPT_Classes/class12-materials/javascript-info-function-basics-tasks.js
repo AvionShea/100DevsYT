@@ -83,6 +83,27 @@ function min(a, b) {
 
 // P.S. In this task the function should support only natural values of n: integers up from 1.
 
+//My solution
 function pow(x, n) {
     return x ** n
+}
+
+//site solution
+function pow(x, n) {
+    let result = x;
+
+    for (let i = 1; i < n; i++) {
+        result *= x;
+    }
+
+    return result;
+}
+
+let x = prompt("x?", '');
+let n = prompt("n?", '');
+
+if (n < 1) {
+    alert(`Power ${n} is not supported, use a positive integer`);
+} else {
+    alert(pow(x, n));
 }
