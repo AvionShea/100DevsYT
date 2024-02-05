@@ -59,6 +59,16 @@ function checkAge(age) {
 // min(3, -1) == -1
 // min(1, 1) == 1
 
+//My solution
+function min(a, b) {
+    return Math.min(a, b)
+}
+
+//Site Solution
+function min(a, b) {
+    return a < b ? a : b;
+}
+
 
 
 // Function pow(x,n)
@@ -72,3 +82,7 @@ function checkAge(age) {
 // Run the demo
 
 // P.S. In this task the function should support only natural values of n: integers up from 1.
+
+function pow(x, n) {
+    return x ** n
+}
