@@ -7,5 +7,5 @@ function checkForRose(click){
 		document.querySelector('#nikki').classList.toggle("hidden");
 	}else{
 		alert("Wrong!");
-	}
-}
+	};
+};
