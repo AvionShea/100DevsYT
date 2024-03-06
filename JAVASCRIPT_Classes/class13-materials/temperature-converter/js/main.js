@@ -11,7 +11,7 @@ document.getElementById('convert').addEventListener('click', convertTemp);
 function convertTemp(){
     let celsius = document.getElementById('temp').value;
 
-    let farhrenheit = (celsius * 9/5) + 32;
+    let fahrenheit = (celsius * 9/5) + 32;
 
-    document.getElementById('temp-display').innerText = `${farhrenheit}°F`;
+    document.getElementById('temp-display').innerText = `${fahrenheit}°F`;
 };
