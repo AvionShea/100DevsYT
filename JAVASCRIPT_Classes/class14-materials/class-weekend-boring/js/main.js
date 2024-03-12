@@ -9,11 +9,11 @@ function check() {
   if(day === "tuesday" || day === "thursday"){
    results = "YOU HAVE CLASS!";
   }else if( day === "saturday" || day === "sunday"){
-    results = "It's The Weekend!"
+    results = "It's The Weekend!";
   }else if(day === 'wednesday'){
-   results = "Hump Daaaayeee!"
+   results = "Hump Daaaayeee!";
   }else{
-    results = "BORINGGGGGG!"
+    results = "BORINGGGGGG!";
   }
 
   document.querySelector("#placeToSee").innerText = results;
