@@ -7,13 +7,14 @@ function check() {
   const day = document.querySelector('#day').value.toLowerCase();
 
   if(day === "tuesday" || day === "thursday"){
-    console.log("YOU HAVE CLASS")
+   results = "YOU HAVE CLASS!";
   }else if( day === "saturday" || day === "sunday"){
-    console.log("It's The Weekend")
+    results = "It's The Weekend!"
   }else if(day === 'wednesday'){
-    console.log("Hump Daaaayeee!")
+   results = "Hump Daaaayeee!"
   }else{
-    console.log("BORING")
+    results = "BORINGGGGGG!"
   }
 
+  document.querySelector("#placeToSee").innerText = results;
 }
