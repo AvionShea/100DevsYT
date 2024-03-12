@@ -1,7 +1,12 @@
 // *Variables*
 // Create a variable and console log the value
+let pop = "popcorn";
+console.log(pop);
 
 // Create a variable, add 10 to it, and alert the value
+let addTen = 132
+addTen += 10;
+alert(addTen);
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
