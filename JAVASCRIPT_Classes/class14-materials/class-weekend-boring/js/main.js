@@ -10,6 +10,8 @@ function check() {
     console.log("YOU HAVE CLASS")
   }else if( day === "saturday" || day === "sunday"){
     console.log("It's The Weekend")
+  }else if(day === 'wednesday'){
+    console.log("Hump Daaaayeee!")
   }else{
     console.log("BORING")
   }
