@@ -10,6 +10,11 @@ alert(addTen);
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
+function subtractsFourNumbers(number1, number2, number3, number4){
+    let difference = number1 - number2 - number3 - number4;
+
+    alert(difference);
+}
 
 // Create a function that divides one number by another and returns the remainder
 
