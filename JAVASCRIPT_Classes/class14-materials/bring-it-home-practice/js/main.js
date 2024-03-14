@@ -14,9 +14,14 @@ function subtractsFourNumbers(number1, number2, number3, number4){
     let difference = number1 - number2 - number3 - number4;
 
     alert(difference);
-}
+};
 
 // Create a function that divides one number by another and returns the remainder
+function divideAndReturns(digit1, digit2){
+    let remainder = digit1 / digit2;
+
+    return remainder;
+};
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
