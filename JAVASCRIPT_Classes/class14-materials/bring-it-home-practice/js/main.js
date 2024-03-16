@@ -32,5 +32,14 @@ function greaterThanFifty(num1, num2){
         alert('Jumanji');
     };
 };
+    greaterThanFifty(50, 5);
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+    function multiplyByThree(digits1, digits2, digits3){
+        let product = digits1 * digits2 * digits3;
+        if(product%3 === 0){
+            alert("Zebra");
+        };
+    };
+
+    multiplyByThree(3,3, 3);
