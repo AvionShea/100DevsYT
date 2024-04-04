@@ -6,6 +6,23 @@
 //If under 30, tell them they can not rent fancy cars affordably
 //If under over 30, tell them there is nothing left to look forward too
 
+function checkAge(age){
+    if(age < 16){
+        results = "You can not drive.";
+    }else if(age < 18){
+        results = "You can't hate from outside the club, because you can't even get it.";
+    }else if(age < 21){
+        results = "You can't drink.";
+    }else if(age < 25){
+        results = "You can't rent cars affordably.";
+    }else if(age < 30){
+        results = "You can't rent fancy cars affordably";
+    }else{
+        results = "There's nothing left to look forward to";
+    };
+
+    console.log(results);
+};
 
 //--- Harder
 //On click of the h1
