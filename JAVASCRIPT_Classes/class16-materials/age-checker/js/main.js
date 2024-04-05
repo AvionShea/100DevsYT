@@ -6,7 +6,11 @@
 //If under 30, tell them they can not rent fancy cars affordably
 //If under over 30, tell them there is nothing left to look forward too
 
-function checkAge(age){
+document.querySelector('#check').addEventListener('click', checkAge);
+
+function checkAge(){
+    let age = document.querySelector('#danceDanceRevolution').value;
+
     if(age < 16){
         results = "You can not drive.";
     }else if(age < 18){
