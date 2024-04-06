@@ -25,7 +25,9 @@ function checkAge(){
         results = "There's nothing left to look forward to";
     };
 
-    console.log(results);
+    //console.log(results);
+
+    document.querySelector("#displayResults").innerHTML = results;
 };
 
 //--- Harder
