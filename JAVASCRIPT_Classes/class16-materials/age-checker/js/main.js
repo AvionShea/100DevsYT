@@ -20,9 +20,9 @@ function checkAge(){
     }else if(age < 25){
         results = "You can't rent cars affordably.";
     }else if(age < 30){
-        results = "You can't rent fancy cars affordably";
+        results = "You can't rent fancy cars affordably.";
     }else{
-        results = "There's nothing left to look forward to";
+        results = "There's nothing left to look forward to.";
     };
 
     //console.log(results);
