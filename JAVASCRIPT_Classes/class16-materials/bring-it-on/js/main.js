@@ -1,5 +1,7 @@
 // *Variables*
 // Create a variable and console log the value
+let newVariable = "hello, world!";
+console.log(newVariable);
 
 // Create a variable, add 10 to it, and alert the value
 
