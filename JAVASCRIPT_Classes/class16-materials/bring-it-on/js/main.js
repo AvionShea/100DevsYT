@@ -4,6 +4,9 @@ let newVariable = "hello, world!";
 console.log(newVariable);
 
 // Create a variable, add 10 to it, and alert the value
+let addTenVariable = 150;
+    addTenVariable += 10;
+    alert(addTenVariable);
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
