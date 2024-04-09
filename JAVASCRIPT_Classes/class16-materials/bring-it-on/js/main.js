@@ -10,6 +10,10 @@ let addTenVariable = 150;
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
+function subtractsFour(n1, n2, n3, n4){
+    let subDifference = n1 - n2 - n3 - n4;
+    alert(subDifference);
+}
 
 // Create a function that divides one number by another and returns the remainder
 
