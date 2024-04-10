@@ -16,6 +16,11 @@ function subtractsFour(n1, n2, n3, n4){
 }
 
 // Create a function that divides one number by another and returns the remainder
+function divideAndReturn(num1, num2){
+    let divideAndConquer = num1 / num2;
+
+    return divideAndConquer;
+}
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
