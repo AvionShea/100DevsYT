@@ -24,6 +24,12 @@ function divideAndReturn(num1, num2){
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
+function addAndCompare(number1, number2){
+    let sum = number1 + number2;
+    if(sum > 50){
+        alert("Jumanji!");
+    };
+};
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
