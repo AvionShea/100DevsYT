@@ -32,6 +32,11 @@ function addAndCompare(number1, number2){
 };
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
-
+function multiplyAndAlert(d1, d2, d3){
+    let product = d1 * d2 * d3;
+    if(product % 3 === 0){
+        alert("Zebra!");
+    };
+}
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
