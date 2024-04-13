@@ -40,3 +40,10 @@ function multiplyAndAlert(d1, d2, d3){
 }
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+function loopTheWord(word, number){
+    for(let i = 0; i <= number; i++){
+        console.log(word);
+    };
+}
+
+loopTheWord("hello", 3);
