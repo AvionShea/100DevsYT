@@ -14,6 +14,7 @@ function subtractsFour(n1, n2, n3, n4){
     let subDifference = n1 - n2 - n3 - n4;
     alert(subDifference);
 }
+subtractsFour(200,10,20,30);
 
 // Create a function that divides one number by another and returns the remainder
 function divideAndReturn(num1, num2){
