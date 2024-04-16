@@ -1,5 +1,7 @@
 // *Variables*
 // Declare a variable, assign it a value, and alert the value
+let declaredVariable = "$138K";
+alert(declaredVariable);
 
 // Create a variable, divide it by 10, and console log the value
 
