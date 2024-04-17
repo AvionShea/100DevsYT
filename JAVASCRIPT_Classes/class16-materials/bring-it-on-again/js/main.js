@@ -4,6 +4,9 @@ let declaredVariable = "$138K";
 alert(declaredVariable);
 
 // Create a variable, divide it by 10, and console log the value
+let variableDividedByTen = 50;
+let newVariable = variableDividedByTen / 10;
+console.log(newVariable);
 
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
