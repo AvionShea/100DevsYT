@@ -10,6 +10,10 @@ console.log(newVariable);
 
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
+function productOfThreeNumbers(n1, n2, n3){
+    let product = n1 * n2 * n3;
+    alert(product);
+}
 
 // Create a function that takes in 4 numbers. Add the first two numbers and subtract the next two. Console log the result
 
