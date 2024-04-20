@@ -25,6 +25,13 @@ function takesFourNumbers(num1, num2, num3, num4){
 
 // *Conditionals*
 // Create a function that takes in 3 numbers. Starting with 100 add the first number, subtract the second, and divide the third. If the value is greater then 25, console log "WE HAVE A WINNNA"
+function greaterThanTwentyFive(number1, number2, number3){
+    let mathSolution = ((100 + number1) - number2) / number3;
+
+    if (mathSolution > 25){
+        console.log("WE HAVE A WINNA!");
+    };
+}
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
 
