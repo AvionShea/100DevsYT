@@ -35,13 +35,21 @@ function greaterThanTwentyFive(number1, number2, number3){
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
 function dayOfWeek(day){
-    let userDay = day.toLowerCase();
-    if(userDay === "saturday" || userDay === "sunday"){
+    day = day.toLowerCase();
+    if(day === "saturday" || day === "sunday"){
         alert("Weekend!");
+    }else if(day === "monday" || day === "tuesday" || day === "wednesday" || day === "thursday" || day === "friday"){
+        alert("week day")
     }else{
-        alert("week day!");
+        alert("Try again!")
     };
 }
 
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
+
+function loopByThree(number){
+    for(i = 1; i <= number; i+=3){
+        console.log(i);
+    };
+}
