@@ -31,7 +31,7 @@ function greaterThanTwentyFive(number1, number2, number3){
     if (mathSolution > 25){
         console.log("WE HAVE A WINNA!");
     };
-}
+};
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
 function dayOfWeek(day){
