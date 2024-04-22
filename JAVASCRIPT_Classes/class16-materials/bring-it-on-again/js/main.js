@@ -52,4 +52,4 @@ function loopByThree(number){
     for(i = 1; i <= number; i+=3){
         console.log(i);
     };
-}
+};
