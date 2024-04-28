@@ -15,7 +15,7 @@ function logsQuotient(num1, num2, num3) {
 function multipliesThree(number1, number2, number3) {
     let product = number1 * number2 * number3;
     return product;
-}
+};
 
 //---Medium
 //create a function that takes in three numbers. Add the first two numbers and return the remainder of dividing the sum of the first two numbers by the third number
