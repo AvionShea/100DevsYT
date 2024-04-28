@@ -9,7 +9,7 @@ function easySubtract(n1, n2) {
 function logsQuotient(num1, num2, num3) {
     let divide = num1 / num2 / num3;
     console.log(divide);
-}
+};
 
 //create a function that multiplys three numbers and returns the product
 function multipliesThree(number1, number2, number3) {
