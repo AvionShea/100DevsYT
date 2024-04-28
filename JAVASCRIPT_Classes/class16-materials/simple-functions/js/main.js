@@ -3,7 +3,7 @@
 function easySubtract(n1, n2) {
     let subtractValue = n1 - n2;
     alert(subtractValue);
-}
+};
 
 //create a function that divides three numbers and console logs the quotient
 function logsQuotient(num1, num2, num3) {
