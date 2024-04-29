@@ -41,4 +41,4 @@ function whatIsHappening(digit1, digit2, digit3, digit4) {
         let remainder = (digit1 * digit2 * digit3) / digit4;
         alert(remainder);
     };
-}
+};
