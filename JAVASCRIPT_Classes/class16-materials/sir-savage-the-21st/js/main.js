@@ -2,7 +2,7 @@
 function twentyOne() {
     for (let i = 0; i <= 20; i++) {
         console.log("21");
-        document.querySelector("#savageSays").innerText += " " + 21
+        document.querySelector("#savageSays").innerText += " " + 21;
     };
 };
 twentyOne();
