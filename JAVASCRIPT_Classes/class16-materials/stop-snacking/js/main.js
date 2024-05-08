@@ -7,4 +7,4 @@ function stopSnacking() {
     for (let i = 0; i < numberOfSnacks; i++) {
         document.querySelector("#stops").innerText += " " + "Please stop eating!";
     };
-}
+};
