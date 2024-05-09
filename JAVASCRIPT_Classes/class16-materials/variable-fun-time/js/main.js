@@ -1,5 +1,6 @@
 //--- Easy
 //create a variable and assign it a number
+let variableAssignedToANumber = 3;
 
 //minus 10 from that number
 
