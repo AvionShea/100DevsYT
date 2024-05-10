@@ -3,6 +3,7 @@
 let variableAssignedToANumber = 3;
 
 //minus 10 from that number
+newNumber = variableAssignedToANumber - 10;
 
 //print that number to the console
 
