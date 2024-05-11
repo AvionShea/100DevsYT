@@ -6,6 +6,7 @@ let variableAssignedToANumber = 3;
 newNumber = variableAssignedToANumber - 10;
 
 //print that number to the console
+console.log(newNumber);
 
 //--- Medium
 //create a variable that holds a value from the input
