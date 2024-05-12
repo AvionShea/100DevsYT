@@ -10,6 +10,7 @@ console.log(newNumber);
 
 //--- Medium
 //create a variable that holds a value from the input
+let holdsAValue = document.querySelector("#danceDanceRevolution").value;
 
 //add 25 to that number
 
