@@ -13,6 +13,7 @@ console.log(newNumber);
 let holdsAValue = document.querySelector("#danceDanceRevolution").value;
 
 //add 25 to that number
+holdsAValue += 25;
 
 //alert that number
 
