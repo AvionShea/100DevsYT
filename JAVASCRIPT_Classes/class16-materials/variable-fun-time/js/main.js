@@ -16,7 +16,7 @@ let holdsAValue = document.querySelector("#danceDanceRevolution").value;
 let holdsANewValue = holdsAValue += 25;
 
 //alert that number
-alert(holdsAValue);
+alert(holdsANewValue);
 
 //--- Hard
 //create a variable that holds the h1
