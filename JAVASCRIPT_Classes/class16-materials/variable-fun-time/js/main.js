@@ -23,7 +23,7 @@ alert(holdsANewValue);
 const holdsH1 = document.querySelector("#holdMe");
 
 //add an event listener to that element that console logs the sum of the two previous variables
-document.querySelector("#clickMe").addEventListener("click", consoleLogSum);
+holdsH1.addEventListener("click", consoleLogSum);
 
 function consoleLogSum() {
     console.log(newNumber)
