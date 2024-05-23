@@ -20,7 +20,7 @@ alert(holdsANewValue);
 
 //--- Hard
 //create a variable that holds the h1
-const holdsH1 = document.querySelector("#holdMe");
+const holdsH1 = document.querySelector("#clickMe");
 
 //add an event listener to that element that console logs the sum of the two previous variables
 holdsH1.addEventListener("click", consoleLogSum);
