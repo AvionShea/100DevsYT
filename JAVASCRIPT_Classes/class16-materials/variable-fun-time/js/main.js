@@ -26,5 +26,5 @@ const holdsH1 = document.querySelector("#holdMe");
 holdsH1.addEventListener("click", consoleLogSum);
 
 function consoleLogSum() {
-    console.log(newNumber)
+    console.log(variableAssignedToANumber + Number(holdsAValue))
 }
