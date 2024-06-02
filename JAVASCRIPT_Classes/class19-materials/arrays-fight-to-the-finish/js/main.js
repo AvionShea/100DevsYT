@@ -4,7 +4,7 @@ let list = document.querySelector("#display");
 
 for (let i = 0; i < arrayOfMovies.length; i++) {
     list.innerText += arrayOfMovies[i]
-}
+};
 
 
 //Create an array of numbers. Loop through the array and three to each number and replace the old number.
