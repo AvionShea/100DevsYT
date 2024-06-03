@@ -8,6 +8,10 @@ for (let i = 0; i < arrayOfMovies.length; i++) {
 
 
 //Create an array of numbers. Loop through the array and three to each number and replace the old number.
+let arrayOfNumbers = [32, 57, 91, 105, 124, 137];
 
+arrayOfNumbers.forEach((item, index) => {
+    arrayOfNumbers[index] = item + 3
+})
 
 //Find the average of all the numbers from question three
