@@ -14,4 +14,4 @@ arrayOfNumbers.forEach((item, index) => {
     arrayOfNumbers[index] = item + 3
 })
 
-//Find the average of all the numbers from question three
+//Find the average of all the numbers from question two
