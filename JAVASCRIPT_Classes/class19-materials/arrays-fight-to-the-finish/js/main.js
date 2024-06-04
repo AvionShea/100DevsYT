@@ -15,3 +15,9 @@ arrayOfNumbers.forEach((item, index) => {
 })
 
 //Find the average of all the numbers from question two
+let sum = 0
+
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+    sum += arrayOfNumbers[i]
+}
+console.log(sum / arrayOfNumbers.length)
