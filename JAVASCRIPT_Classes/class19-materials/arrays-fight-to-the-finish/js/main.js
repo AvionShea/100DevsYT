@@ -3,7 +3,7 @@ let arrayOfMovies = ["Saw", "Lion King", "Dracula", "Smurfs", "Meet the Browns"]
 let list = document.querySelector("#display");
 
 for (let i = 0; i < arrayOfMovies.length; i++) {
-    list.innerText += arrayOfMovies[i]
+    list.innerText += arrayOfMovies[i];
 };
 
 
