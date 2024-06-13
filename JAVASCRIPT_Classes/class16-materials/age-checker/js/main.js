@@ -31,7 +31,7 @@ function checkAge() {
 };
 
 //--- Harder
-//On click of the h1
+/* //On click of the h1
 document.querySelector("#check").addEventListener("click", getAge)
 //Take the value from the input
 function getAge() {
@@ -40,4 +40,4 @@ function getAge() {
     //Place the result of the conditional in the paragraph
     document.querySelector("#displayResults").innerHTL += results;
 }
-
+*/
