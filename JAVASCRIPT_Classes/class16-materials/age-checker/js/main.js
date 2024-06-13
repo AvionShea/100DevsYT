@@ -36,6 +36,8 @@ document.querySelector("#check").addEventListener("click", getAge)
 //Take the value from the input
 function getAge() {
     document.querySelector("#danceDanceRevolution").value;
+
+    //Place the result of the conditional in the paragraph
+    document.querySelector("#displayResults").innerHTL += results;
 }
-//Place the result of the conditional in the paragraph
-document.querySelector("#displayResults").innerHTL += results;
+
