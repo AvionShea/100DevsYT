@@ -8,20 +8,20 @@
 
 document.querySelector('#check').addEventListener('click', checkAge);
 
-function checkAge(){
+function checkAge() {
     let age = document.querySelector('#danceDanceRevolution').value;
 
-    if(age < 16){
+    if (age < 16) {
         results = "You can not drive.";
-    }else if(age < 18){
+    } else if (age < 18) {
         results = "You can't hate from outside the club, because you can't even get it.";
-    }else if(age < 21){
+    } else if (age < 21) {
         results = "You can't drink.";
-    }else if(age < 25){
+    } else if (age < 25) {
         results = "You can't rent cars affordably.";
-    }else if(age < 30){
+    } else if (age < 30) {
         results = "You can't rent fancy cars affordably.";
-    }else{
+    } else {
         results = "There's nothing left to look forward to.";
     };
 
@@ -32,5 +32,10 @@ function checkAge(){
 
 //--- Harder
 //On click of the h1
+document.querySelector("#check").addEventListener("click", getAge)
 //Take the value from the input
+function getAge() {
+    document.querySelector("#danceDanceRevolution").value;
+}
 //Place the result of the conditional in the paragraph
+document.querySelector("#displayResults").innerHTL += results;
