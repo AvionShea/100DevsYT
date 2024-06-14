@@ -15,6 +15,10 @@ function logsQuotient(num1, num2, num3) {
 function multipliesThree(number1, number2, number3) {
     let product = number1 * number2 * number3;
     return product;
+
+    /*return number1 * number2 * number3
+    let product = multipliesThree(number1, number2, number3)
+    */
 };
 
 //---Medium
