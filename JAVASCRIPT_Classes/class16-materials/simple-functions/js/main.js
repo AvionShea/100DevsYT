@@ -25,7 +25,7 @@ function multipliesThree(number1, number2, number3) {
 //create a function that takes in three numbers. Add the first two numbers and return the remainder of dividing the sum of the first two numbers by the third number
 function tooMuchGoingOn(d1, d2, d3) {
     let firstAdd = d1 + d2;
-    let remainder = firstAdd / d3;
+    let remainder = firstAdd % d3;
 
     return remainder;
 };
