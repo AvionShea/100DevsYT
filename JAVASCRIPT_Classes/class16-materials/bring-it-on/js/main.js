@@ -20,11 +20,14 @@ let subtractsFour = (n1, n2, n3, n4) => n1 - n2 - n3 - n4
 alert(subtractsFour(200, 10, 20, 30));
 
 // Create a function that divides one number by another and returns the remainder
-function divideAndReturn(num1, num2) {
+/*function divideAndReturn(num1, num2) {
     let divideAndConquer = num1 / num2;
 
     return divideAndConquer;
 };
+*/
+
+let divideAndReturn = (num1, num2) => num1 / num2
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
