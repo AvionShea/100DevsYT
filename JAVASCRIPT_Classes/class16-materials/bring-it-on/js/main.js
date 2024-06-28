@@ -31,12 +31,15 @@ let divideAndReturn = (num1, num2) => num1 / num2
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
-function addAndCompare(number1, number2) {
+/*function addAndCompare(number1, number2) {
     let sum = number1 + number2;
     if (sum > 50) {
         alert("Jumanji!");
     };
-};
+};*/
+
+let addAndCompare = (number1, number2) => number1 + number2 > 50 ? alert("Jumanji!") : number1 + number2
+
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 function multiplyAndAlert(d1, d2, d3) {
