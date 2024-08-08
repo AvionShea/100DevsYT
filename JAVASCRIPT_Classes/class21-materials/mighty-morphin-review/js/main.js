@@ -7,7 +7,12 @@ console.log(favHoliday);
 
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 let lastThree = "Hurricane weather is the best";
-lastThree = lastThree.substring(lastThree.length - 3);
+//example one
+//lastThree = lastThree.substring(lastThree.length - 3);
+
+//example two
+lastThree = lastThree.slice(-3);
+
 alert(lastThree);
 
 
