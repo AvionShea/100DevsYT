@@ -11,7 +11,7 @@ function MakeStreetFighter(name, punch, kick, block, specialMove) {
         console.log("You don't want none of this!");
     };
     this.taunt = function () {
-        console.log(`You can handle my ${this.specialMove}!`)
+        console.log(`You can't handle my ${this.specialMove}!`)
     };
     this.dodge = function () {
         console.log("Whooooop, missed me!");
