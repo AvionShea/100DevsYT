@@ -19,3 +19,4 @@ function MakeStreetFighter(name, punch, kick, block, specialMove) {
 };
 
 let sky = new MakeStreetFighter("Sky", "high", "shin", "face", "cobra strike");
+let moonlight = new MakeStreetFighter("Moonlight", "throat", "stomach", "head", "super saiyan")
