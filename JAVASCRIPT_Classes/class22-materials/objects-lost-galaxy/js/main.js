@@ -19,3 +19,12 @@ mouse.leftClick = function () {
 mouse.scroll = function () {
     console.log("Zoom");
 };
+
+function Mouse(brand, color, size, purpose) {
+    this.brand = brand,
+        this.color = color,
+        this.size = size,
+        this.purpose = purpose
+}
+
+let Logitech = Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
