@@ -28,3 +28,4 @@ function Mouse(brand, color, size, purpose) {
 }
 
 let Logitech = Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
+let dell = Mouse("Dell", "Black", "Small", "Convenience")
