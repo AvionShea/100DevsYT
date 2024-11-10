@@ -27,5 +27,5 @@ function Mouse(brand, color, size, purpose) {
         this.purpose = purpose
 }
 
-let Logitech = Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
+let logitech = Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
 let dell = Mouse("Dell", "Black", "Small", "Convenience")
