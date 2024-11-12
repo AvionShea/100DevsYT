@@ -34,4 +34,5 @@ const isPalindrome = (str) => {
 };
 
 isPalindrome("racecar")
+isPalindrome("shortcuts")
 //Alert if the string is a palindrome or not
