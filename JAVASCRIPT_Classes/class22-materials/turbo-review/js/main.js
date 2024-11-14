@@ -34,11 +34,11 @@ const whoWon = (playerChoice) => {
     let botChoice = rockPaperScissors();
 
     if ((playerChoice === "rock" && botChoice === "scissors") || (playerChoice === "paper" && botChoice === "rock") || (playerChoice === "scissors" && botChoice === "paper")) {
-        console.log("You Win!");
+        console.log("Winner!");
     } else if (playerChoice === botChoice) {
-        console.log("You Tied!");
+        console.log("Tied!");
     } else {
-        console.log("You Lose!");
+        console.log("Loser!");
     };
 };
 
