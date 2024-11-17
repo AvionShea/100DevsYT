@@ -20,6 +20,7 @@ mouse.scroll = function () {
     console.log("Zoom");
 };
 
+//original constructor
 function Mouse(brand, color, size, purpose) {
     this.brand = brand,
         this.color = color,
@@ -37,6 +38,28 @@ function Mouse(brand, color, size, purpose) {
     this.scroll = function () {
         console.log("Zoom");
     };
+}
+
+//class constructor
+class Mouse {
+    constructor(brand, color, size, purpose) {
+        this.brand = brand,
+            this.color = color,
+            this.size = size,
+            this.purpose = purpose
+
+        this.rightClick = function () {
+            console.log("right click");
+        };
+
+        this.leftClick = function () {
+            console.log("left click");
+        };
+
+        this.scroll = function () {
+            console.log("Zoom");
+        };
+    }
 }
 
 let logitech = new Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
