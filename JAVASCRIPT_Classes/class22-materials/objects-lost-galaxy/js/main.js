@@ -25,7 +25,19 @@ function Mouse(brand, color, size, purpose) {
         this.color = color,
         this.size = size,
         this.purpose = purpose
+
+    this.rightClick = function () {
+        console.log("right click");
+    };
+
+    this.leftClick = function () {
+        console.log("left click");
+    };
+
+    this.scroll = function () {
+        console.log("Zoom");
+    };
 }
 
-let logitech = Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
-let dell = Mouse("Dell", "Black", "Small", "Convenience")
+let logitech = new Mouse("LogiTech", "Pink", "Medium", "Ergonomic")
+let dell = new Mouse("Dell", "Black", "Small", "Convenience")
