@@ -2,16 +2,16 @@
 
 //Original constructor
 function MakeCar(carMake, carModel, carColor, numOfDoors) {
-    this.carMake = carMake,
-        this.carModel = carModel,
-        this.carColor = carColor,
-        this.numOfDoors = numOfDoors
+    this.make = carMake,
+        this.model = carModel,
+        this.color = carColor,
+        this.doors = numOfDoors
 
-    this.carAlarm = function alarm() {
+    this.alarm = function alarm() {
         alert("ALERT! ALERT! ALERT!")
     }
 
-    this.carDoorLock = function lockDoors() {
+    this.doorLock = function lockDoors() {
         alert(`Locked all ${this.numOfDoors} doors!`)
     }
 
@@ -23,16 +23,16 @@ function MakeCar(carMake, carModel, carColor, numOfDoors) {
 //Class constructor
 class MakeCar {
     constructor(carMake, carModel, carColor, numOfDoors) {
-        this.carMake = carMake,
-            this.carModel = carModel,
-            this.carColor = carColor,
-            this.numOfDoors = numOfDoors
+        this.make = carMake,
+            this.model = carModel,
+            this.color = carColor,
+            this.doors = numOfDoors
 
-        this.carAlarm = function alarm() {
+        this.alarm = function alarm() {
             alert("ALERT! ALERT! ALERT!")
         }
 
-        this.carDoorLock = function lockDoors() {
+        this.doorLock = function lockDoors() {
             alert(`Locked all ${this.numOfDoors} doors!`)
         }
 
