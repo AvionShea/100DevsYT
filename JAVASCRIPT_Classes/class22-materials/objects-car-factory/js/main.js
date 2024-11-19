@@ -42,5 +42,6 @@ class MakeCar {
     }
 }
 
-let hondaAccord = new MakeCar("Honda", "Accord", "Black", "4")
-let bmwM5 = new MakeCar("BMW", "M5", "Isle of Man", "4")
+let hondaAccord = new MakeCar("Honda", "Accord", "Black", 4)
+let bmwM5 = new MakeCar("BMW", "M5", "Isle of Man", 4)
+let alfaRomero = new MakeCar("Alfa Romeo", "Giulia Quadrifoglio", "Verde Fangio Metallic", 4)
