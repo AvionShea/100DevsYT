@@ -11,7 +11,7 @@ function MakeCar(carMake, carModel, carColor, numOfDoors) {
         alert("ALERT! ALERT! ALERT!")
     }
 
-    this.doorLock = function lockDoors() {
+    this.lockDoors = function lockDoors() {
         alert(`Locked all ${this.numOfDoors} doors!`)
     }
 
