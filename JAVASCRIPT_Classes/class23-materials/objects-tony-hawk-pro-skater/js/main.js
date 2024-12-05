@@ -22,3 +22,4 @@ class ProSkater {
 
 let bob = new ProSkater("Bob", "Male", "Pink", true, "Backflip");
 let summer = new ProSkater("Summer", "Female", "Peach", true, "Kickflip");
+let sparkle = new ProSkater("Sparkle", "Female", "Turquoise", false, "Frontflip")
