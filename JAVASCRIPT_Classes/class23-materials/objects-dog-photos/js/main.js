@@ -8,7 +8,7 @@ fetch("https://dog.ceo/api/breeds/image/random")
     })
     .catch(error => {
         console.log(`error ${error}`)
-    })
+    });
 
 // Example
 fetch("https://dog.ceo/api/breeds/image/random")
@@ -18,4 +18,4 @@ fetch("https://dog.ceo/api/breeds/image/random")
     })
     .catch(error => {
         console.log(`error ${error}`)
-    })
+    });
