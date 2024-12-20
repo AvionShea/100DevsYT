@@ -1,6 +1,6 @@
 # #100Devs Training Program
 
-A free online 30 week bootcamp, meant to bring you from zero programming skills to employable taught by Leon Noel.
+A free online 30 week bootcamp, meant to bring students from zero programming skills to employable taught by Leon Noel.
 
 ## Table of contents
 
