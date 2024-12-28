@@ -2,12 +2,13 @@
 /* CSS
 /*******************************************/
 
+body{
+  background-color: blanchedalmond;
+}
+
 /* Box Model Hack */
 *{
   box-sizing: border-box;
-}
-body{
-  background-color: blanchedalmond;
 }
 
 /******************************************
