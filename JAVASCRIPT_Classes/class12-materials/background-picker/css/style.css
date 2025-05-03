@@ -27,8 +27,8 @@ img {
 }
 
 ul {
-  width: 100px;
-  height: 485px;
+  display: flex;
+  width: 25%;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
@@ -37,7 +37,7 @@ ul {
 }
 
 li {
-  width: 94px;
+  width: 95px;
   height: 80px;
 }
 
