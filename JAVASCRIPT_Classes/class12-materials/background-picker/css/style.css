@@ -28,23 +28,24 @@ img {
 
 ul {
   width: 100px;
-  height: 331px;
+  height: 485px;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
+  cursor: pointer;
 }
 
 li {
   width: 94px;
-  height: 65px;
+  height: 80px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 #purple {
-  background: rgba(241, 63, 247, 1);
+  background: rgba(108, 0, 112, 1);
 }
 
 #green {
@@ -57,6 +58,9 @@ li {
 
 #red {
   background: rgba(255, 0, 0, 1);
+}
+#orange {
+  background: rgb(255, 175, 4);
 }
 
 #reset {
