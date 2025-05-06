@@ -28,7 +28,6 @@ img {
 
 ul {
   display: flex;
-  flex-direction: row;
   width: 25%;
   border: 3px solid black;
   margin: 0 auto;
