@@ -6,12 +6,12 @@
 //does calculation, - calculation
 //displays new value in dom - innerHTML
 
-document.getElementById('convert').addEventListener('click', convertTemp);
+document.querySelector("#convert").onclick = convert;
 
-function convertTemp(){
-    let celsius = document.getElementById('temp').value;
+function convert() {
+    const celsius = document.querySelector("#temp").value;
 
-    let fahrenheit = (celsius * 9/5) + 32;
+    const fahrenheit = (celsius * 9 / 5) + 32;
 
-    document.getElementById('temp-display').innerText = `${fahrenheit}°F`;
-};
+    document.querySelector("#temp-display").innerText = `${fahrenheit}°F`;
+}
