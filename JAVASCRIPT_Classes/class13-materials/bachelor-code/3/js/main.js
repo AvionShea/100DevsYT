@@ -3,6 +3,7 @@ const contestant = document.querySelectorAll(".contestant");
 
 //Array through each element, adding an event listener
 Array.from(contestant).forEach(element => element.addEventListener("click", checkForRose));
+//Array.from(contestant).forEach(element => element.onclick = checkForRose);
 
 
 //function with a parameter
