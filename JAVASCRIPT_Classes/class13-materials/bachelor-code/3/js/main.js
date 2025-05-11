@@ -12,8 +12,9 @@ function checkForRose(click) {
 	if (click.target.classList.contains("rose")) {
 		//select it from the DOM and toggle the class hidden
 		document.getElementById("nikki").classList.toggle("hidden");
+		document.getElementById("placeText").innerText = "You're correct!";
 
 	} else {
-		alert("Oops! That's incorrect. Please try again!");
+		document.getElementById("placeText").innerText = "Oops! That's incorrect. Please try again!";
 	}
 }
